@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Scout Widgets Demo App JavaFX
+Bundle-SymbolicName: org.eclipsescout.demo.widgets.ui.fx;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: org.eclipsescout.demo.widgets.ui.fx.Activator
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipsescout.rt.ui.fx,
+ org.eclipsescout.demo.widgets.client;visibility:=reexport,
+ org.eclipsescout.demo.widgets.shared
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: .

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="org.eclipsescout.rt.ui.fx.formfields" name="Form Fields" schema="schema/formfields.exsd"/>
+   <extension-point id="org.eclipsescout.rt.ui.fx.resources.css" name="CSS" schema="schema/css.exsd"/>
+   <extension
+         point="org.eclipse.scout.service.services">
+      <service
+            class="org.eclipsescout.rt.ui.fx.services.FxBundleIconProviderService"
+            createImmediately="false"
+            factory="org.eclipse.scout.rt.client.services.ClientServiceFactory">
+      </service>
+   </extension>
+   <extension
+         point="org.eclipsescout.rt.ui.fx.formfields">
+      <formField
+            active="true"
+            modelClass="org.eclipse.scout.rt.client.ui.form.fields.stringfield.IStringField"
+            name="TextField"
+            scope="default">
+         <uiClass
+               class="org.eclipsescout.rt.ui.fx.form.fields.textfield.FxScoutTextField">
+         </uiClass>
+      </formField>
+      <formField
+            active="true"
+            modelClass="org.eclipse.scout.rt.client.ui.form.fields.button.IButton"
+            name="Button"
+            scope="default">
+         <uiClass
+               class="org.eclipsescout.rt.ui.fx.form.fields.button.FxScoutButton">
+         </uiClass>
+      </formField>
+      <formField
+            active="true"
+            modelClass="org.eclipse.scout.rt.client.ui.form.fields.groupbox.IGroupBox"
+            name="GroupBox"
+            scope="default">
+         <uiClass
+               class="org.eclipsescout.rt.ui.fx.form.fields.groupbox.FxScoutGroupBox">
+         </uiClass>
+      </formField>
+     <formField
+           active="true"
+           modelClass="org.eclipse.scout.rt.client.ui.form.fields.tablefield.ITableField"
+           name="Table field"
+           scope="default">
+        <uiClass
+              class="org.eclipsescout.rt.ui.fx.form.fields.tablefield.FxScoutTableFieldWithChart">
+        </uiClass>
+     </formField>
+     <formField
+           active="true"
+           modelClass="org.eclipse.scout.rt.client.ui.form.fields.radiobuttongroup.IRadioButtonGroup"
+           name="Radio button group"
+           scope="default">
+        <uiClass
+              class="org.eclipsescout.rt.ui.fx.form.fields.radiobuttongroup.FxScoutRadioButtonGroup">
+        </uiClass>
+     </formField>
+      <formField
+            active="true"
+            modelClass="org.eclipse.scout.rt.client.ui.form.fields.IFormField"
+            name="Unknown field"
+            scope="default">
+         <uiClass
+               class="org.eclipsescout.rt.ui.fx.form.fields.FxScoutFormFieldPlaceholder">
+         </uiClass>
+      </formField>
+   </extension>
+   <extension
+         point="org.eclipsescout.rt.ui.fx.resources.css">
+      <css
+            cssURL="resources/css/defaultScout.css">
+      </css>
+   </extension>
+</plugin>

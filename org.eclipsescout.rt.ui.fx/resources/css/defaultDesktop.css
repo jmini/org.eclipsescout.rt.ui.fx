@@ -1,0 +1,47 @@
+/*******************************************************************************
+ * Copyright (c) 2014 BSI Business Systems Integration AG.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Contributors:
+ *     BSI Business Systems Integration AG - initial API and implementation
+ ******************************************************************************/
+.desktop {
+	-fx-background-color: -fx-background;
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center center;
+	-fx-background-image: url(../icons/internal/window256.png);
+}
+
+.split-pane.primary-split-pane > .split-pane-divider,
+.split-pane.secondary-split-pane > .split-pane-divider {
+	-fx-background-color: transparent;
+	-fx-background-insets: -4;
+	-fx-border-color: null;
+	-fx-border-insets: 0;
+	-fx-padding: 0;
+	-fx-shape: " ";
+}
+
+.split-pane.primary-split-pane > .split-pane-divider > .horizontal-grabber,
+.split-pane.primary-split-pane > .split-pane-divider > .vertical-grabber,
+.split-pane.secondary-split-pane > .split-pane-divider > .horizontal-grabber,
+.split-pane.secondary-split-pane > .split-pane-divider > .vertical-grabber {
+	-fx-padding: 0;
+	-fx-background-color: null;
+	-fx-background-insets: 0;
+	-fx-shape: " ";
+}
+
+.taskbar {
+	-fx-border-color: -fx-box-border;
+	-fx-border-insets: 0;
+	-fx-padding: 2 5;
+	-fx-border-style: solid;
+	-fx-border-width: 1 0;
+	
+	-fx-background-color: -fx-background;
+	-fx-spacing: 5;
+}

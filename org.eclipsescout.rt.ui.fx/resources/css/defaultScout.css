@@ -1,0 +1,107 @@
+/*******************************************************************************
+ * Copyright (c) 2014 BSI Business Systems Integration AG.
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
+ * 
+ * Contributors:
+ *     BSI Business Systems Integration AG - initial API and implementation
+ ******************************************************************************/
+
+.chart-button {
+	-fx-cursor: hand;
+}
+
+.chart-button:hover {
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 7, 0, 0, 0);
+}
+
+.chart-pie {
+	-fx-cursor: hand;
+}
+
+.group-box-border {
+	-fx-padding: 10;
+}
+
+.bordered-group-box-border {
+  -fx-background-insets: 5 0 0 0;
+  -fx-background-radius: 5;
+  -fx-border-insets: 5 0 0 0;
+  -fx-border-color: -fx-box-border;
+  -fx-border-style: solid;
+  -fx-border-radius: 5;
+  -fx-border-width: 1;
+}
+
+.bordered-group-box-title {
+  -fx-background-color: -fx-background;
+  -fx-translate-y: -8;
+  -fx-translate-x: 10;
+}
+
+.bordered-group-box-content {
+  -fx-padding: 10 5 5 5;
+}
+
+.main-box {
+}
+
+.value-field-ok {
+}
+.value-field-info {
+}
+
+.value-field-cancel {
+}
+
+.value-field-warning {
+}
+
+.value-field-error {
+}
+
+.value-field-fatal {
+}
+
+.value-field-error,
+.value-field-fatal {
+	-fx-effect: dropshadow(three-pass-box, rgba(255,0,0,1), 7, 0, 0, 0);
+}
+
+.value-field-warning {
+	-fx-effect: dropshadow(three-pass-box, rgba(255,255,0,1), 7, 0, 0, 0);
+}
+
+.message-box {
+}
+
+.message-box > .intro-text-pane {
+  -fx-background-color: -fx-body-color;
+  -fx-padding: 12;
+  -fx-border-color: -fx-box-border;
+  -fx-border-width: 0 0 1 0;
+  -fx-font-weight: bold;
+  -fx-font-size: 1.1em;
+}
+
+.message-box > .action-text-pane {
+  -fx-padding: 12;
+}
+
+.message-box > .button-pane {
+  -fx-background-color: -fx-body-color-bottomup;
+  -fx-padding: 12;
+  -fx-border-color: -fx-box-border;
+  -fx-border-width: 1 0 0 0;
+}
+
+.message-box > .button-pane > .yes-button {
+}
+
+.message-box > .button-pane > .no-button {
+}
+
+.message-box > .button-pane > .cancel-button {
+}
