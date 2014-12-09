@@ -55,13 +55,13 @@
       <plugin id="org.eclipse.scout.rt.extension.client"/>
       <plugin id="org.eclipse.scout.rt.servicetunnel"/>
       <plugin id="org.eclipse.scout.rt.shared"/>
-      <plugin id="org.eclipse.scout.rt.ui.fx"/>
       <plugin id="org.eclipse.scout.service"/>
       <plugin id="org.eclipse.scout.svg.client"/>
       <plugin id="org.eclipse.update.configurator"/>
       <plugin id="org.eclipsescout.demo.widgets.client"/>
       <plugin id="org.eclipsescout.demo.widgets.shared"/>
       <plugin id="org.eclipsescout.demo.widgets.ui.fx"/>
+      <plugin id="org.eclipsescout.rt.ui.fx"/>
       <plugin id="org.w3c.css.sac"/>
       <plugin id="org.w3c.dom.events"/>
       <plugin id="org.w3c.dom.smil"/>

@@ -40,7 +40,7 @@
                class="org.eclipsescout.rt.ui.fx.form.fields.groupbox.FxScoutGroupBox">
          </uiClass>
       </formField>
-     <formField
+      <formField
            active="true"
            modelClass="org.eclipse.scout.rt.client.ui.form.fields.tablefield.ITableField"
            name="Table field"
@@ -48,8 +48,8 @@
         <uiClass
               class="org.eclipsescout.rt.ui.fx.form.fields.tablefield.FxScoutTableFieldWithChart">
         </uiClass>
-     </formField>
-     <formField
+      </formField>
+      <formField
            active="true"
            modelClass="org.eclipse.scout.rt.client.ui.form.fields.radiobuttongroup.IRadioButtonGroup"
            name="Radio button group"
@@ -57,7 +57,16 @@
         <uiClass
               class="org.eclipsescout.rt.ui.fx.form.fields.radiobuttongroup.FxScoutRadioButtonGroup">
         </uiClass>
-     </formField>
+      </formField>
+      <formField
+            active="true"
+            modelClass="org.eclipse.scout.rt.client.ui.form.fields.treefield.ITreeField"
+            name="Tree field"
+            scope="default">
+         <uiClass
+               class="org.eclipsescout.rt.ui.fx.form.fields.treefield.FxScoutTreeField">
+         </uiClass>
+      </formField>
       <formField
             active="true"
             modelClass="org.eclipse.scout.rt.client.ui.form.fields.IFormField"
@@ -67,11 +76,11 @@
                class="org.eclipsescout.rt.ui.fx.form.fields.FxScoutFormFieldPlaceholder">
          </uiClass>
       </formField>
-   </extension>
-   <extension
+    </extension>
+    <extension
          point="org.eclipsescout.rt.ui.fx.resources.css">
       <css
             cssURL="resources/css/defaultScout.css">
       </css>
-   </extension>
+    </extension>
 </plugin>

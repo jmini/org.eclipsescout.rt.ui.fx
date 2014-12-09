@@ -23,7 +23,7 @@ Main RT plugin containing the rendering code for JavaFx.
 Tests code for the main plugin.
 
 
-### org.eclipsescout.rt.ui.fx.test
+### org.eclipsescout.demo.widgets.ui.fx
 
 Test application: additional ui plugin for the [Eclipse Scout Widgets Demo Application](http://wiki.eclipse.org/Scout/Demo#Widgets) in order to start the JavaFx UI.
 
