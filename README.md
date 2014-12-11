@@ -13,9 +13,14 @@ Description
 
 Branch **releases/4.0.x** contains the JavaFx renderer for the Luna version. 
 
+### org.eclipsescout.rt.ui.fx.target
+
+Project containing the target file required to work on the JavaFx rendering layer.
+Set `scout_fx_luna.target` as Target Platform.
+
 ### org.eclipsescout.rt.ui.fx
 
-Main RT plugin containing the rendering code for JavaFx.
+Main RT plugin containing the JavaFx rendering layer for eclipse scout.
 
 
 ### org.eclipsescout.rt.ui.fx.test
@@ -26,6 +31,9 @@ Tests code for the main plugin.
 ### org.eclipsescout.demo.widgets.ui.fx
 
 Test application: additional ui plugin for the [Eclipse Scout Widgets Demo Application](http://wiki.eclipse.org/Scout/Demo#Widgets) in order to start the JavaFx UI.
+You will need to import the plugins from the [GitHub project](https://github.com/BSI-Business-Systems-Integration-AG/org.eclipsescout.demo/) (take the `4.0` branch):
+* `org.eclipsescout.demo.widgets.client`
+* `org.eclipsescout.demo.widgets.shared`
 
 
 Get in touch / bug tracker
