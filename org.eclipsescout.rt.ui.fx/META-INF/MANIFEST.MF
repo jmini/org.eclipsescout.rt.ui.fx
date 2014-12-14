@@ -3,7 +3,7 @@ Bundle-ManifestVersion: 2
 Bundle-Name: Scout UI FX
 Bundle-Vendor: Eclipse Scout Project
 Bundle-SymbolicName: org.eclipsescout.rt.ui.fx;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 4.0.100.qualifier
 Bundle-ClassPath: .,resources
 Bundle-Activator: org.eclipsescout.rt.ui.fx.Activator
 Require-Bundle: org.eclipse.scout.rt.client,
